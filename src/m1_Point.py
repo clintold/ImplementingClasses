@@ -83,7 +83,7 @@ class Point(object):
         return distance
 
     def get_distance_traveled(self):
-       return self.distance
+        return self.distance
 
     def closer_to(self, p2, p3):
         if ((self.x - p2.x)**2 + (self.y - p2.y)**2)**.5 < ((self.x - p3.x)**2 + (self.y - p3.y)**2)**.5:
